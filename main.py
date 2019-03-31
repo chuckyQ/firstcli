@@ -7,8 +7,8 @@ Options:
   --version     Give version of tool
 """
 
+__version__ = '0.0.1'
 
 from docopt import docopt
 
-doc = docopt(__doc__)
-print(doc)
+doc = docopt(__doc__, version=__version__)
